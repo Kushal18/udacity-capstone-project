@@ -20,7 +20,7 @@
 							}
 						],
 						"url": {
-							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos",
+							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/trips",
 							"protocol": "https",
 							"host": [
 								"{{apiId}}",
@@ -31,7 +31,7 @@
 							],
 							"path": [
 								"dev",
-								"todos"
+								"trips"
 							]
 						}
 					},
@@ -59,7 +59,7 @@
 							"raw": "{\n\t\"name\": \"Water flowers\",\n\t\"dueDate\": \"2019-06-11\"\n}"
 						},
 						"url": {
-							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos",
+							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/trips",
 							"protocol": "https",
 							"host": [
 								"{{apiId}}",
@@ -70,7 +70,7 @@
 							],
 							"path": [
 								"dev",
-								"todos"
+								"trips"
 							]
 						}
 					},
@@ -98,7 +98,7 @@
 							"raw": "{\n\t\"name\": \"Change the world\",\n\t\"dueDate\": \"2019-12-11\",\n\t\"done\": true\n}"
 						},
 						"url": {
-							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos/35dd600f-43c2-4649-903c-615e1586a26f",
+							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/trips/35dd600f-43c2-4649-903c-615e1586a26f",
 							"protocol": "https",
 							"host": [
 								"{{apiId}}",
@@ -109,7 +109,7 @@
 							],
 							"path": [
 								"dev",
-								"todos",
+								"trips",
 								"35dd600f-43c2-4649-903c-615e1586a26f"
 							]
 						}
@@ -138,7 +138,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos/fe671583-4512-45f6-9475-4265c04362fb",
+							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/trips/fe671583-4512-45f6-9475-4265c04362fb",
 							"protocol": "https",
 							"host": [
 								"{{apiId}}",
@@ -149,7 +149,7 @@
 							],
 							"path": [
 								"dev",
-								"todos",
+								"trips",
 								"fe671583-4512-45f6-9475-4265c04362fb"
 							]
 						}
@@ -172,7 +172,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/todos/3836b777-9bc4-4429-9b79-ba4e4f5f91c0/attachment",
+							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/trips/3836b777-9bc4-4429-9b79-ba4e4f5f91c0/attachment",
 							"protocol": "https",
 							"host": [
 								"{{apiId}}",
@@ -183,7 +183,7 @@
 							],
 							"path": [
 								"dev",
-								"todos",
+								"trips",
 								"3836b777-9bc4-4429-9b79-ba4e4f5f91c0",
 								"attachment"
 							]
@@ -253,7 +253,7 @@
 		{
 			"id": "96810f14-dec7-4cec-96f7-0279bda55f08",
 			"key": "apiId",
-			"value": ""
+			"value": "f6qidasvag"
 		},
 		{
 			"id": "606c2b53-27fb-4cf6-b188-6ec52202312a",
