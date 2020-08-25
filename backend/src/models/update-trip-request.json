@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "updateInputModel",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "minLength": 1
+        },
+        "destination": {
+            "type": "string"
+        },
+        "startDate": {
+            "type": "string"
+        },
+        "endDate": {
+            "type": "string"
+        }
+    },
+    "required": [ "name", "startDate","endDate","destination" ],
+    "additionalProperties": false
+}
